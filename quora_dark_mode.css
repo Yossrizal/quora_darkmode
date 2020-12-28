@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name Quora Dark Mode
 @type less
-@homepageURL https://ext.firefoxcn.net/xstyle/md5namespace/2c60561d71e1645d6b111c105ad28e84
-@originalMD5 2c60561d71e1645d6b111c105ad28e84
+@homepageURL https://github.com/Yossrizal
+@originalMD5 null
 @author yasurize
 @advanced color base-color "Base color scheme" #4183c4
 @advanced dropdown bg-choice "Background" {
@@ -67,6 +67,9 @@ display: none !important; EOT;
     }
     div.q-box.qu-borderRadius--circle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
         background-color: transparent !important;
+    }
+    div.q-text.qu-cursor--pointer.qt_read_more.qu-color--blue_dark.qu-fontFamily--sans.qu-bg--raised.qu-pl--tiny {
+        box-shadow: rgba(9, 9, 9, 1) -16px 0px 14px 6px !important;
     }
     a:link {
         color: teal !important
