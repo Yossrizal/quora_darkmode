@@ -1,0 +1,96 @@
+/* ==UserStyle==
+@name Quora Dark Mode
+@type less
+@homepageURL https://ext.firefoxcn.net/xstyle/md5namespace/2c60561d71e1645d6b111c105ad28e84
+@originalMD5 2c60561d71e1645d6b111c105ad28e84
+@author yasurize
+@advanced color base-color "Base color scheme" #4183c4
+@advanced dropdown bg-choice "Background" {
+	crosshatch "Cross-Hatch" <<<EOT
+url(https://camo.githubusercontent.com/5b8e4cd1a5ce69b6affa17ebd8e4aee00c147618/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d63726f737368617463682e706e67) EOT;
+	uniform "Uniform Tile" <<<EOT
+url(https://camo.githubusercontent.com/f83a9a60a2c64be0c88833ccb436e32a458cd2ce/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d74696c652d756e69666f726d2e706e67) EOT;
+	random "Random Tile" <<<EOT
+url(https://camo.githubusercontent.com/3beb850d8069e424480199a09899030c9e58e85f/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d74696c65312e706e67) EOT;
+	custom "Custom" <<<EOT
+var(--bg-custom) EOT;
+	none "None" <<<EOT
+none EOT;
+}
+@advanced text bg-custom "Custom Background" "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAAD1BMVEUREREREREAAAAREREWFhkN5cwCAAAABHRSTlNfGAAwFBG7CgAAACxJREFUeAFjYGJiZGBhhhMMYIIRTjCgcIE8VC4TKpeRmYEZiTtIzGNihhNMAJJAATdKr5xFAAAAAElFTkSuQmCC)"
+@advanced dropdown bg-options "Background image type" {
+	Tiled "Tiled" <<<EOT
+background-repeat: repeat !important;
+background-size: auto !important;
+background-position: left top !important; EOT;
+	size "Fit window size" <<<EOT
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: center top !important; EOT;
+}
+@advanced dropdown bg-attachment "Background image attachment" {
+	Scroll "Scroll" <<<EOT
+scroll EOT;
+	Fixed "Fixed" <<<EOT
+fixed EOT;
+}
+@advanced dropdown hide-popup "Hide Text Selection Popup" {
+	Yes "Yes" <<<EOT
+display: none !important; EOT;
+	No "No" <<<EOT
+/* Blank *\/ EOT;
+}
+@advanced text custom-transition "Custom transition" "all ease-in 350ms"
+==/UserStyle== */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("quora.com") {
+    * {
+        color: darkgray !important;
+        background-color: #090909 !important
+    }
+    div.q-box.qu-borderRadius--circle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.guhqSv {
+        background-color: transparent !important;
+    }
+    div.q-box.qu-borderRadius--small.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
+        background-color: transparent !important;
+    }
+    div.q-box.qu-borderRadius--squircle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
+        background-color: transparent !important;
+    }
+    div.q-box.qu-bg--red.qu-width--8.qu-height--8 {
+        background-color: red !important;
+    }
+    div.q-text.qu-display--flex.qu-alignItems--center.qu-justifyContent--center.qu-px--tiny.qu-bg--red.qu-color--white.qu-minWidth--16.qu-height--16 {
+        background-color: #900 !important;
+        color: white !important;
+    }
+    div.q-box.qu-borderRadius--circle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
+        background-color: transparent !important;
+    }
+    a:link {
+        color: teal !important
+    }
+    a:visited {
+        color: darkslategray !important
+    }
+    a:hover {
+        color: lightskyblue !important
+    }
+    a:active {
+        color: yellowgreen !important
+    }
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+        background-color: ButtonFace !important;
+        color: ButtonText !important;
+        border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight !important
+    }
+    input[type=text],
+    input[type=password],
+    input[type=file] {
+        background-color: Window !important;
+        color: WindowText !important
+    }
+}
