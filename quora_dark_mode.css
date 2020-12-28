@@ -1,9 +1,10 @@
 /* ==UserStyle==
-@name Quora Dark Mode
+@name Quora dark mode
 @type less
-@homepageURL https://github.com/Yossrizal
+@homepageURL https://github.com/Yossrizal/quora_darkmode
+@updateURL https://github.com/Yossrizal/quora_darkmode
 @originalMD5 null
-@author yasurize
+@author yossrizal
 @advanced color base-color "Base color scheme" #4183c4
 @advanced dropdown bg-choice "Background" {
 	crosshatch "Cross-Hatch" <<<EOT
@@ -55,7 +56,8 @@ display: none !important; EOT;
     div.q-box.qu-borderRadius--small.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
         background-color: transparent !important;
     }
-    div.q-box.qu-borderRadius--squircle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
+    div.q-box.qu-borderRadius--squircle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe,
+    div.q-box.qu-borderRadius--squircle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.guhqSv {
         background-color: transparent !important;
     }
     div.q-box.qu-bg--red.qu-width--8.qu-height--8 {
@@ -68,7 +70,8 @@ display: none !important; EOT;
     div.q-box.qu-borderRadius--circle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.jXogTe {
         background-color: transparent !important;
     }
-    div.q-text.qu-cursor--pointer.qt_read_more.qu-color--blue_dark.qu-fontFamily--sans.qu-bg--raised.qu-pl--tiny {
+    div.q-text.qu-cursor--pointer.qt_read_more.qu-color--blue_dark.qu-fontFamily--sans.qu-bg--raised.qu-pl--tiny,
+    div.q-text.qu-cursor--pointer.qt_read_more.qu-color--blue_dark.qu-fontFamily--sans.qu-bg--white.qu-pl--tiny {
         box-shadow: rgba(9, 9, 9, 1) -16px 0px 14px 6px !important;
     }
     a:link {
