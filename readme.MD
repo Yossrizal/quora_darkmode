@@ -3,6 +3,7 @@
 This is dark theme for [Quora](id.quora.com) desktop using xStyle extension browser.
 
 ## Installation
+Download the `.css` file to your machine.
 
 Install specifix xStyle extension for your browser :
 * [Google Chrome](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj)
