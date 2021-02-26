@@ -48,7 +48,7 @@ display: none !important; EOT;
 @-moz-document domain("quora.com") {
     * {
         color: darkgray !important;
-        background-color: #090909 !important
+        /*background-color: #090909 !important*/
     }
     div.q-box.qu-borderRadius--circle.qu-borderAll.qu-borderColor--darken.Photo___StyledBox-sc-1x7c6d3-0.guhqSv {
         background-color: transparent !important;
